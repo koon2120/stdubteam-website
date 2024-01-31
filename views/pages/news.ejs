@@ -1,0 +1,12 @@
+<img class="img_obj_001" src="https://i.ibb.co/Qf2v2gr/st-dub-website-obj-001.png">
+<p class="img_obj_004_in"><img class="img_obj_004" src="https://i.ibb.co/v3HjjYk/st-dub-website-obj-004-2.png"></p>
+<div class="content">
+    <% news_list.forEach(function(news) { %>
+        <a class="news_link" href="/news/id/<%= news.id %>">
+            <div class="news">
+                <p class="news_date"><%= news.date %></p>
+                <h1 class="news_title"><%= news.title %></h1>
+            </div>
+        </a>
+      <% }); %>
+</div>

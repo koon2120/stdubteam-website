@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+    font-family: 'Noto Sans Thai', sans-serif;
+    color: white;
+}
+
+.img_obj_001 {
+    height: 100%;
+    position: fixed;
+    opacity: 50%;
+    z-index: -1;
+}
+
+.img_obj_004 {
+    width: 70%;
+}
+
+.img_obj_004_in {
+    text-align: center;
+}
+
+.content {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+}
+
+.content_text {
+    font-size: 150%;
+}
+
+@media only screen and (max-width: 600px) {
+    .img_obj_004 {
+        width: 100%;
+    }
+    
+    .content_text {
+        font-size: 100%;
+    }
+}
