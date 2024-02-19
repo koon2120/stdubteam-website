@@ -15,7 +15,7 @@ news_list_all = [
 app.get('/', (req, res) => {
     res.render("main", {
         "title": "ST Dub Team Official Website",
-        "icon": "https://i.ibb.co/GkCMgbn/logo.png",
+        "icon": "https://i.ibb.co/GTVTDTz/st-dub-team-logo-bg-black.png",
         "url": req.protocol + "://" + req.hostname + "/",
         "full_url": req.protocol + "://" + req.hostname + req.originalUrl,
         "thumnail": "https://i.ibb.co/sCZ82JX/og-cover.png",
@@ -27,7 +27,7 @@ app.get('/', (req, res) => {
 app.get('/about', (req, res) => {
     res.render("main", {
         "title": "เกี่ยวกับเรา - ST Dub Team",
-        "icon": "https://i.ibb.co/GkCMgbn/logo.png",
+        "icon": "https://i.ibb.co/GTVTDTz/st-dub-team-logo-bg-black.png",
         "url": req.protocol + "://" + req.hostname + "/",
         "full_url": req.protocol + "://" + req.hostname + req.originalUrl,
         "thumnail": "https://i.ibb.co/sCZ82JX/og-cover.png",
@@ -39,7 +39,7 @@ app.get('/about', (req, res) => {
 app.get('/news', (req, res) => {
     res.render("main", {
         "title": "ข่าวสาร - ST Dub Team",
-        "icon": "https://i.ibb.co/GkCMgbn/logo.png",
+        "icon": "https://i.ibb.co/GTVTDTz/st-dub-team-logo-bg-black.png",
         "url": req.protocol + "://" + req.hostname + "/",
         "full_url": req.protocol + "://" + req.hostname + req.originalUrl,
         "thumnail": "https://i.ibb.co/sCZ82JX/og-cover.png",
@@ -61,7 +61,7 @@ app.get('/news/id/:id', (req, res) => {
     if (find_status) {
         res.render("main", {
             "title": content[0]["title"] + " - ST Dub Team",
-            "icon": "https://i.ibb.co/GkCMgbn/logo.png",
+            "icon": "https://i.ibb.co/GTVTDTz/st-dub-team-logo-bg-black.png",
             "url": req.protocol + "://" + req.hostname + "/",
             "full_url": req.protocol + "://" + req.hostname + req.originalUrl,
             "thumnail": content[0]["thumnail"],
@@ -79,7 +79,7 @@ app.get('/news/id/:id', (req, res) => {
 app.get('/members', (req, res) => {
     res.render("main", {
         "title": "สมาชิกในทีม - ST Dub Team",
-        "icon": "https://i.ibb.co/GkCMgbn/logo.png",
+        "icon": "https://i.ibb.co/GTVTDTz/st-dub-team-logo-bg-black.png",
         "url": req.protocol + "://" + req.hostname + "/",
         "full_url": req.protocol + "://" + req.hostname + req.originalUrl,
         "thumnail": "https://i.ibb.co/sCZ82JX/og-cover.png",
@@ -91,7 +91,7 @@ app.get('/members', (req, res) => {
 app.get('/projects', (req, res) => {
     res.render("main", {
         "title": "ผลงานของเรา - ST Dub Team",
-        "icon": "https://i.ibb.co/GkCMgbn/logo.png",
+        "icon": "https://i.ibb.co/GTVTDTz/st-dub-team-logo-bg-black.png",
         "url": req.protocol + "://" + req.hostname + "/",
         "full_url": req.protocol + "://" + req.hostname + req.originalUrl,
         "thumnail": "https://i.ibb.co/sCZ82JX/og-cover.png",
@@ -103,7 +103,7 @@ app.get('/projects', (req, res) => {
 app.get('/contact', (req, res) => {
     res.render("main", {
         "title": "ติดต่อเรา - ST Dub Team",
-        "icon": "https://i.ibb.co/GkCMgbn/logo.png",
+        "icon": "https://i.ibb.co/GTVTDTz/st-dub-team-logo-bg-black.png",
         "url": req.protocol + "://" + req.hostname + "/",
         "full_url": req.protocol + "://" + req.hostname + req.originalUrl,
         "thumnail": "https://i.ibb.co/sCZ82JX/og-cover.png",
