@@ -8,10 +8,11 @@ app.set('view engine', 'ejs')
 app.use('/styles', express.static(path.join(__dirname, 'styles')))
 app.use('/api', express.static(path.join(__dirname, 'api')))
 
-const key = "00000"
+const key = "11111"
 
 news_list_all = [
     {"id":"22066","date":"31/1/2567","title":"เว็บไซต์ ST Dub Team เปิดให้เข้าชมได้แล้ว!!","thumnail":"https://i.ibb.co/tBMQ3Xt/st-news-20240131001.webp"},
+    {"id":"95943","date":"13/4/2567","title":`มาแล้ว! กับผลงานฝึกพากย์ไทยตัวใหม่จาก ST Dub Team`,"thumnail":"https://i.ibb.co/jvbjDDT/st-pj-16-thumnail.webp"},
 ]
 
 app.get('/', (req, res) => {
@@ -62,7 +63,7 @@ app.get('/news/id/:id', (req, res) => {
     }
     if (find_status) {
         res.render(`main-${key}`, {
-            "title": content[0]["title"] + " - ST Dub Team",
+            "title": content[0]["title"],
             "icon": "https://i.ibb.co/yqLjh6S/st-dub-team-logo-bg-black.webp",
             "url": req.protocol + "://" + req.hostname + "/",
             "full_url": req.protocol + "://" + req.hostname + req.originalUrl,
