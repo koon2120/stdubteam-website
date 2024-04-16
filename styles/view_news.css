@@ -48,10 +48,20 @@ body {
     margin-bottom: 30px;
 }
 
-.content_text {
+p {
     font-size: 120%;
     margin-top: 0;
     margin-bottom: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(206, 206, 206);
+    text-decoration: underline;
 }
 
 @media only screen and (max-width: 600px) {
