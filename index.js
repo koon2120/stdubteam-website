@@ -1,7 +1,7 @@
 const express = require('express')
 const path = require('path')
 const app = express()
-const port = 80
+const port = 3000
 
 app.set("views", path.join(__dirname, "views"));
 app.set('view engine', 'ejs')
@@ -119,3 +119,5 @@ app.get('/contact', (req, res) => {
 app.listen(port, () => {
     console.log(`running as port ${port}`)
 })
+
+module.exports = app
