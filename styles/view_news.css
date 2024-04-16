@@ -1,0 +1,89 @@
+body {
+    background-color: black;
+    font-family: 'Noto Sans Thai', sans-serif;
+    color: white;
+}
+
+.img_obj_001 {
+    height: 100%;
+    position: fixed;
+    opacity: 50%;
+    z-index: -1;
+}
+
+.img_obj_004_in {
+    text-align: center;
+}
+
+.content {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.content_thumnail_in {
+    text-align: center;
+}
+
+.content_thumnail {
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+.content_date {
+    font-size: 80%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.content_title {
+    font-size: 250%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.content_cut {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: 120%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(206, 206, 206);
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+    .content {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .content_thumnail {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    
+    .content_date {
+        font-size: 60%;
+    }
+    
+    .content_title {
+        font-size: 160%;
+    }
+    
+    .content_text {
+        font-size: 80%;
+    }
+}
