@@ -31,7 +31,7 @@ app.get('/', (req, res) => {
 
 app.get('/about', (req, res) => {
     res.render(`main`, {
-        "title": "เกี่ยวกับเรา",
+        "title": "เกี่ยวกับเรา - ST Dub Team",
         "icon": icon_link,
         "url": req.protocol + "://" + req.hostname + "/",
         "full_url": req.protocol + "://" + req.hostname + req.originalUrl,
@@ -43,7 +43,7 @@ app.get('/about', (req, res) => {
 
 app.get('/news', (req, res) => {
     res.render(`main`, {
-        "title": "ข่าวสาร",
+        "title": "ข่าวสาร - ST Dub Team",
         "icon": icon_link,
         "url": req.protocol + "://" + req.hostname + "/",
         "full_url": req.protocol + "://" + req.hostname + req.originalUrl,
@@ -65,7 +65,7 @@ app.get('/news/id/:id', (req, res) => {
     }
     if (find_status) {
         res.render(`main`, {
-            "title": content[0]["title"],
+            "title": content[0]["title"] + " - ST Dub Team",
             "icon": icon_link,
             "url": req.protocol + "://" + req.hostname + "/",
             "full_url": req.protocol + "://" + req.hostname + req.originalUrl,
@@ -83,7 +83,7 @@ app.get('/news/id/:id', (req, res) => {
 
 app.get('/members', (req, res) => {
     res.render(`main`, {
-        "title": "สมาชิกในทีม",
+        "title": "สมาชิกในทีม - ST Dub Team",
         "icon": icon_link,
         "url": req.protocol + "://" + req.hostname + "/",
         "full_url": req.protocol + "://" + req.hostname + req.originalUrl,
@@ -95,7 +95,7 @@ app.get('/members', (req, res) => {
 
 app.get('/projects', (req, res) => {
     res.render(`main`, {
-        "title": "ผลงานของเรา",
+        "title": "ผลงานของเรา - ST Dub Team",
         "icon": icon_link,
         "url": req.protocol + "://" + req.hostname + "/",
         "full_url": req.protocol + "://" + req.hostname + req.originalUrl,
@@ -107,7 +107,7 @@ app.get('/projects', (req, res) => {
 
 app.get('/contact', (req, res) => {
     res.render(`main`, {
-        "title": "ติดต่อเรา",
+        "title": "ติดต่อเรา - ST Dub Team",
         "icon": icon_link,
         "url": req.protocol + "://" + req.hostname + "/",
         "full_url": req.protocol + "://" + req.hostname + req.originalUrl,
