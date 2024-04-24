@@ -66,6 +66,7 @@ app.get('/news/id/:id', (req, res) => {
     if (find_status) {
         res.render(`main`, {
             "title": content[0]["title"] + " - ST Dub Team",
+            "title_content": content[0]["title"],
             "icon": icon_link,
             "url": req.protocol + "://" + req.hostname + "/",
             "full_url": req.protocol + "://" + req.hostname + req.originalUrl,
