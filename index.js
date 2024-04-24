@@ -31,7 +31,7 @@ app.get('/', (req, res) => {
 
 app.get('/about', (req, res) => {
     res.render(`main`, {
-        "title": "เกี่ยวกับเรา - ST Dub Team",
+        "title": "เกี่ยวกับเรา",
         "icon": icon_link,
         "url": req.protocol + "://" + req.hostname + "/",
         "full_url": req.protocol + "://" + req.hostname + req.originalUrl,
@@ -43,7 +43,7 @@ app.get('/about', (req, res) => {
 
 app.get('/news', (req, res) => {
     res.render(`main`, {
-        "title": "ข่าวสาร - ST Dub Team",
+        "title": "ข่าวสาร",
         "icon": icon_link,
         "url": req.protocol + "://" + req.hostname + "/",
         "full_url": req.protocol + "://" + req.hostname + req.originalUrl,
@@ -83,7 +83,7 @@ app.get('/news/id/:id', (req, res) => {
 
 app.get('/members', (req, res) => {
     res.render(`main`, {
-        "title": "สมาชิกในทีม - ST Dub Team",
+        "title": "สมาชิกในทีม",
         "icon": icon_link,
         "url": req.protocol + "://" + req.hostname + "/",
         "full_url": req.protocol + "://" + req.hostname + req.originalUrl,
@@ -95,7 +95,7 @@ app.get('/members', (req, res) => {
 
 app.get('/projects', (req, res) => {
     res.render(`main`, {
-        "title": "ผลงานของเรา - ST Dub Team",
+        "title": "ผลงานของเรา",
         "icon": icon_link,
         "url": req.protocol + "://" + req.hostname + "/",
         "full_url": req.protocol + "://" + req.hostname + req.originalUrl,
@@ -107,7 +107,7 @@ app.get('/projects', (req, res) => {
 
 app.get('/contact', (req, res) => {
     res.render(`main`, {
-        "title": "ติดต่อเรา - ST Dub Team",
+        "title": "ติดต่อเรา",
         "icon": icon_link,
         "url": req.protocol + "://" + req.hostname + "/",
         "full_url": req.protocol + "://" + req.hostname + req.originalUrl,
