@@ -9,6 +9,7 @@ app.use('/styles', express.static(path.join(__dirname, 'styles')))
 app.use('/api', express.static(path.join(__dirname, 'api')))
 
 news_list_all = [
+    {"id":"29684","date":"16/5/2567","title":`ST Dub Project 17 พร้อมรับชมทุกช่องทางแล้ว!`,"thumnail":"https://firebasestorage.googleapis.com/v0/b/stdubteam-website.appspot.com/o/news-webp%2Fst-pj17-thumnail-4.webp?alt=media"},
     {"id":"18939","date":"17/4/2567","title":`ขณะนี้เว็บไซต์กลับมาใช้งานได้ตามปกติแล้ว`,"thumnail":"https://firebasestorage.googleapis.com/v0/b/stdubteam-website.appspot.com/o/news-webp%2Fst-pr-news-170425671420.webp?alt=media"},
     {"id":"95943","date":"13/4/2567","title":`มาแล้ว! กับผลงานฝึกพากย์ไทยตัวใหม่จาก ST Dub Team`,"thumnail":"https://firebasestorage.googleapis.com/v0/b/stdubteam-website.appspot.com/o/projects-webp%2Fst-pj-16-thumnail.webp?alt=media"},
     {"id":"22066","date":"31/1/2567","title":"เว็บไซต์ ST Dub Team เปิดให้เข้าชมได้แล้ว!!","thumnail":"https://firebasestorage.googleapis.com/v0/b/stdubteam-website.appspot.com/o/news-webp%2Fst-news-20240131001.webp?alt=media"},
