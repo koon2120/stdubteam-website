@@ -2,5 +2,10 @@
 export default defineNuxtConfig({
   devtools: { enabled: false },
   css: ['~/assets/css/main.css'],
-  modules: ["@nuxt/content"]
+  modules: ["@nuxt/content"],
+  app: {
+      head: {
+          link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+      }
+  },
 })
