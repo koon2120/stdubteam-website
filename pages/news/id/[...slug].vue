@@ -20,7 +20,9 @@
           <p class="content_date">{{ doc.timedate }}</p>
           <h1 class="content_title">{{ doc.title }}</h1>
           <hr class="content_cut" />
-          <ContentRenderer :value="doc" />
+          <div class="content_show">
+            <ContentRenderer :value="doc" />
+          </div>
         </article>
       </template>
       <template #not-found>
@@ -71,6 +73,10 @@
   margin-bottom: 30px;
 }
 
+.content_show {
+  overflow: visible;
+}
+
 p {
   font-size: 120%;
   margin-top: 0;
@@ -109,5 +115,9 @@ a:hover {
   .content_text {
     font-size: 80%;
   }
+
+  .content_show {
+  overflow: scroll;
+}
 }
 </style>

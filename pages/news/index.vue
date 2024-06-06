@@ -41,6 +41,10 @@ data.reverse();
 </template>
 
 <style scoped>
+figure {
+  margin: 0;
+}
+
 .img_obj_004 {
   width: 70%;
 }
@@ -106,7 +110,7 @@ data.reverse();
     padding-left: 20px;
     padding-top: 20px;
     padding-right: 20px;
-    padding-bottom: 5px;
+    padding-bottom: 20px;
     margin-top: 15px;
     margin-bottom: 15px;
     border-radius: 15px;

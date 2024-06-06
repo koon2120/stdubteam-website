@@ -45,6 +45,10 @@ const members_data_all = data.value
 </template>
 
 <style scoped>
+figure {
+  margin: 0;
+}
+
 .img_obj_004 {
   width: 70%;
 }
