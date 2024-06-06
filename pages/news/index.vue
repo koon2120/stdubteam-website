@@ -11,8 +11,11 @@ useSeoMeta({
   twitterCard: "summary_large_image",
 });
 
-const data = await queryContent("news", "id").find();
-data.reverse();
+const data = await queryContent("news", "id")
+  .sort({ 'content-no': -1 })
+  .find()
+
+
 </script>
 
 <template>
