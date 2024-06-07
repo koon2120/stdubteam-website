@@ -26,10 +26,7 @@ useSeoMeta({
     />
   </p>
   <div class="content">
-    <p class="content_text">
-      หากต้องการติดต่อเรา สามารถติดต่อเราได้ผ่านทางอีเมล stdubteam@gmail.com
-      โปรดระบุรายละเอียดให้ครบถ้วน และรอการตอบกลับจากเรา!
-    </p>
+    <ContentDoc/>
   </div>
 </template>
 

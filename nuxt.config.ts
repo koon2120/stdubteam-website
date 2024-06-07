@@ -9,5 +9,9 @@ export default defineNuxtConfig({
           { rel: "icon", type: "image/png", href: "https://firebasestorage.googleapis.com/v0/b/stdubteam-website.appspot.com/o/webassets-webp%2Ffavicon.png?alt=media" }
         ]
     }
+  },
+  content: {
+    contentHead: false,
+    documentDriven: true
   }
 })

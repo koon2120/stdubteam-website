@@ -1,4 +1,19 @@
-<script setup></script>
+<script setup>
+const { page } = useContent()
+console.log(page.value)
+
+useSeoMeta({
+  title: `${page.value.title}`,
+  ogTitle: `${page.value.title}`,
+  description:
+    `${page.value.description}`,
+  ogDescription:
+    `${page.value.description}`,
+  ogImage:
+    `${page.value.head.image}`,
+  twitterCard: "summary_large_image",
+});
+</script>
 
 <template>
   <img
