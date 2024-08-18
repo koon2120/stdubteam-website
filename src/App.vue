@@ -10,6 +10,7 @@ const navbarStatus = ref(false);
 function onNavbarLinkClick() {
   navbarStatus.value = false;
 }
+
 </script>
 
 <template>
