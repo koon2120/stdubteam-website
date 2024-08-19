@@ -27,7 +27,7 @@ function onNavbarLinkClick() {
     </template>
     <img
       class="st-logo"
-      src="/public/images/st-dub-team-logo-no-bg.png"
+      src="/images/st-dub-team-logo-no-bg.png"
       alt="ST Dub Team Logo"
     />
     <svg
