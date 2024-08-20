@@ -87,7 +87,6 @@ function onNavbarLinkClick() {
 }
 
 main {
-  padding-top: 70px;
   min-height: 500px;
 }
 

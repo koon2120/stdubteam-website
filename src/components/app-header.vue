@@ -7,8 +7,8 @@
 
 <style scoped>
 header {
+    background-color: #000000f5;
     position: absolute;
-    background-color: #000000;
     width: 100%;
     height: 70px;
 }

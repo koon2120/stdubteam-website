@@ -23,7 +23,7 @@ import { RouterLink } from "vue-router";
 <style scoped>
 footer {
   color: #ffffff;
-  background-color: #000000;
+  background-color: #000000f5;
   padding-top: 30px;
   padding-bottom: 30px;
   padding-left: 20px;

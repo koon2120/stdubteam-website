@@ -1,3 +1,2 @@
 <template>
-    Works
 </template>
