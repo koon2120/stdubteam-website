@@ -1,57 +1,10 @@
 <script setup>
-import { ref } from "vue";
-import { RouterLink, RouterView } from "vue-router";
-import Header from "./components/app-header.vue";
+import { RouterView } from "vue-router";
 import Footer from "./components/app-footer.vue";
-import Navbar from "./components/app-navbar.vue";
-
-const navbarStatus = ref(false);
-
-function onNavbarLinkClick() {
-  navbarStatus.value = false;
-}
 
 </script>
 
 <template>
-  <Header>
-    <template v-slot:showMenu>
-      <Navbar :navbarStatus="navbarStatus">
-        <RouterLink class="navbar-link" to="/" @click="onNavbarLinkClick"
-          >HOME</RouterLink
-        ><br />
-        <RouterLink class="navbar-link" to="/works" @click="onNavbarLinkClick"
-          >WORKS</RouterLink
-        >
-      </Navbar>
-    </template>
-    <img
-      class="st-logo"
-      src="/images/st-dub-team-logo-no-bg.png"
-      alt="ST Dub Team Logo"
-    />
-    <svg
-      class="menu"
-      @click="navbarStatus = !navbarStatus"
-      xmlns="http://www.w3.org/2000/svg"
-      height="40px"
-      viewBox="0 -960 960 960"
-      width="40px"
-      fill="#e8eaed"
-    >
-      <path
-        d="M120-240v-66.67h720V-240H120Zm0-206.67v-66.66h720v66.66H120Zm0-206.66V-720h720v66.67H120Z"
-      />
-    </svg>
-    <nav class="nav-pc">
-      <RouterLink class="navbar-link-pc" to="/" @click="onNavbarLinkClick"
-        >HOME</RouterLink
-      >
-      <RouterLink class="navbar-link-pc" to="/works" @click="onNavbarLinkClick"
-        >WORKS</RouterLink
-      >
-    </nav>
-  </Header>
   <main>
     <RouterView />
   </main>
